@@ -1,0 +1,76 @@
+.nav {
+	border-bottom: 1px solid #e9eaea;
+}
+
+.nav a {
+  color: #5a5a5a;
+  padding: 14px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.title {
+	background-color: #fff;
+	height: 200px;
+}
+
+.title h1 {
+	color: #5a5a5a;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 55px;
+	text-align: center;
+}
+
+.content {
+	background-color: #e9eaea;
+	height: 900px;
+	/* calculated necessary height was 890px */
+}
+
+.card {
+	background: #fff;
+	height: 370px;
+	width: 290px;
+	text-align: center;
+	color: #5a5a5a;
+	fill: #5a5a5a;
+}
+
+.card h3 {
+	font-size: 70px;
+	margin-top: 80px;
+}
+
+.card svg {
+	vertical-align: middle;
+	margin-top: 50px;
+}
+
+div.card:hover {
+	background: #00BCD4;
+	color: #fff;
+	fill: #fff;
+}
+
+.rowPos {
+	margin-left: 36px;
+}
+	
+#row1 {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+}
+
+.bottom {
+	background-color: #cccccc;
+	height: 300px;
+}
+
