@@ -1,8 +1,16 @@
 <html>
 	<head>
-		<title>Quantum CS</title>
+		<title>Tomistan</title>
 		<link rel="stylesheet" href="bootstrap.css">
 		<link rel="stylesheet" href="styles.css">
+		<script>
+			var now = new Date();
+			var start = new Date(now.getFullYear(), 0, 0);
+			var difference = now - start;
+			var oneDay = 1000*60*60*24;
+			var traditionalDay = Math.ceil(difference / oneDay);
+			document.getElementById("date").innerHTML = traditionalDay;
+		</script>
 	</head>
 	<body>
 		<div class="nav" id="navScroll">
@@ -12,23 +20,23 @@
 					<li><a href="#">Learn</a></li>
 				</ul>
 				<ul class="pull-right">
-					<li><a href="http://www.research.ibm.com/quantum/">Try It!</a></li>
-					<li><a href="#">Applications</a></li>
-					<li><a href="https://www.codecademy.com/learn">Don't Know Code?</a></li>
+					<li><a href="http://www.research.ibm.com/quantum/">Swag</a></li>
+					<li><a href="#">Batman</a></li>
+					<li><a href="https://www.codecademy.com/learn">Do You Even Code Brah?</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="title">
-			<h1>Quantum Computing</h1>
+			<h1>Tomistan</h1>
 		</div>
 		<div class="content">
 			<div class="rowPos">
 				<div class="card" id="row1">
-					<h2>The Basics</h2>
-					<h3>1+1=2</h3>
+					<h2>The Beginning</h2>
 				</div>
 				<div class="card" id="row1">
-					<h2>The Qubit</h2>
+					<h2>Today's Date:</h2>
+					<h3 id="date"></h3>
 				</div>
 				<div class="card" id="row1">
 					<h2>Linear Algebra</h2>
